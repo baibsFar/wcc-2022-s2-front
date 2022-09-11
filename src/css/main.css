@@ -3,6 +3,24 @@
     src: url(../../assets/font/LexendDeca-VariableFont_wght.ttf);
 }
 
+@keyframes fadeElement-in-left {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeElement-in-right {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
