@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Lexend Deca";
+    src: url(../../assets/font/LexendDeca-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca";
+    font-weight: bold;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--black);
+    border-radius: 8px;
+}
+
+body {
+    color: var(--black);
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    margin: 0;
+    background: url(../../assets/img/background/background.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (min-width: 1300px) {
+    main {
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+    }
+}
