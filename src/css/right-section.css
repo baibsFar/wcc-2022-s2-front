@@ -169,6 +169,7 @@
         bottom: 80px;
         right: 0;
         width: 150%;
+        background-color: transparent;
         /* transform: translateY(200%); */
         flex-direction: row;
         justify-content: flex-end;
