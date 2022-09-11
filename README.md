@@ -3,7 +3,7 @@
 # Demo
 <ul>
   <li>
-    <a href="">Go to the site</a>
+    <a href="https://wcc-s2-phoenix.netlify.app/">Go to the site</a>
   </li>
 </ul>
 
