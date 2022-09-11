@@ -156,12 +156,6 @@
 
     .activity { 
         box-shadow: none;
-        transition: all 250ms;
-    }
-    
-    .activity:hover {
-        box-shadow: 0px 5px 10px rgb(234, 234, 234);
-        transform: translateX(-30px);
     }
 
     .socials {
